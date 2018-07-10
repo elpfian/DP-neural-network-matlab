@@ -2,9 +2,12 @@
 School project: neural network coded using Matlab, can use with MNIST data
 
 Invoke function: neural_net( inputs, targets, nodeLayers, numEpochs, batchSize, eta )
+
 Output will be written to file results.txt.
 
+
 DESCRIPTION
+
 The primary function neural_net:
 - Contains the main loop over the epochs, which checks whether the conditions to terminate training have been met (number of epochs or accuracy)
 - Generates randomly-sampled mini-batches
