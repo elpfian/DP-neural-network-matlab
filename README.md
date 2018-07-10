@@ -1,5 +1,5 @@
 # Neural Network v1
-School project: neural network coded using Matlab, can use with MNIST data
+School project: Code neural network using Matlab with a fully matrix-based approach to backpropagation over a mini-batch. Test with XOR and MNIST.
 
 Invoke function: neural_net( inputs, targets, nodeLayers, numEpochs, batchSize, eta )
 
