@@ -21,7 +21,7 @@ end
  
 % INITIALIZE activations, weighted inputs and deltas
 % zCell{1} and dCell{1} are not used in calculation but kept for indexing
-aCell = { sigma(xMat) };
+aCell = { sigma(xMat) };    % THIS IS WRONG - should not apply activation function here, aCell = { xMat };
 zCell = { [] };
 dCell = { [] };
  
